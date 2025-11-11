@@ -12,3 +12,4 @@ export default function AuthLayout() {
     </Stack>
   );
 }
+// camino: app/auth/_layout.tsx
