@@ -22,7 +22,7 @@ export default function RegistroScreen() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [rolSeleccionado, setRolSeleccionado] = useState<"chef" | "usuario">(
-    "usuario"
+    "usuario" 
   );
   const [cargando, setCargando] = useState(false);
   const { registrar } = useAuth();
